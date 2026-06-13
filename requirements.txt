@@ -1,0 +1,6 @@
+paramiko>=3.4.0
+requests>=2.31.0
+prompt_toolkit>=3.0.0
+# playwright runs on Kali, not here — installed automatically on first browser use.
+# To install manually on Kali:
+#   pip install playwright && playwright install chromium
