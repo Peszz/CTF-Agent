@@ -122,7 +122,7 @@ override per-run with `--model`).
 | qwen2.5-72b-instruct | ~45 GB | Best non-reasoning option if you have the VRAM |
 | llama-3.3-70b-instruct | ~45 GB | Good general reasoning |
 
-> ⚠️ Models **without** tool calling (base models, many older llamas) will not work.
+> **WARNING** Models **without** tool calling (base models, many older llamas) will not work.
 > For reasoning models, enable **thinking** in LM Studio and keep `max_tokens >= 4096`.
 > Sampling (temperature / top_p / top_k) is selected **automatically** from the model
 > id — Qwen → 0.6/0.95/20, Gemma → 1.0/0.95/64, otherwise a balanced default — so you
